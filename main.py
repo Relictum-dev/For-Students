@@ -11,6 +11,6 @@ while tryes > 0:
         break
 
     else:
-        tryes += 1
+        tryes -= 1
         print(f'Попытайтесь ещё раз, у вас осталось {tryes} попыток')
         continue
